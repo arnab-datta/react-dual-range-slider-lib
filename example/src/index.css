@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    max-width: 20rem;
+    background: #fa6142;
+    color: #eff;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    position: relative;
+    border-radius: 0.25rem;
+    counter-reset: step;
+    counter-increment: step 0;
+    transition: background 0.3s;
+    outline: none;
+}
+
+
+.example__app__wrappper{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #192F48;
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+.example__app__wrappper h1,h2{
+  /* margin-top: 20px; */
+  color: white;
+}
+.example__app__innner{
+  width: 500px;
+  /* margin-top: 200px; */
+ 
+}
+
+.example__app__wrappper .inputBox{
+  border-radius: 5px;
+  margin: 10px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  border:none;
+}
+
+.viewBox{
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-evenly;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.example__app__wrappper a{
+  text-decoration: none;
+  color: #384a56;
+  background-color: #71D4B7;
+  padding: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
