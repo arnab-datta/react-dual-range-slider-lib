@@ -1,6 +1,6 @@
 {
   "name": "react-dual-range-slider-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple react component Library that accepts the start value and end value of a number range and returns the selected range.",
   "author": "https://github.com/arnab-datta",
   "license": "MIT",
